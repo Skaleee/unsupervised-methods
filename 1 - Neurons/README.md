@@ -29,4 +29,4 @@ Here I tried mostly the same method.
 
 - Bandpass filter proved essential as there were very low and high noise frequencies present in the data.
 
-The method did not work good on the data. The data was detected as mostly just 1 cluster. The spike forms looked good though.
+The method did not work good on the data. The data was detected as mostly just 1 cluster. The spike forms looked okay though.
