@@ -8,6 +8,7 @@ The pipeline works in the following steps:
 - Bandpass filter to filter out noise so that only amplitudes that can be part of a spike remain.
 - Normalize the data, so this method works on more than just one data set.
 - Extract possible spike times by simple thesholding. Also filter out spikes that are too close to another, as those are unrealistic.
+    - The parameters were tuned using the Optuna library
 - Use the possible spike times to extract amplitude windows from the data, where in each window one spike may occur.
 - Extract features from each window. Many features were tested, but only a few proved useful in the end.
 - Normalize features for next steps
@@ -22,3 +23,11 @@ The pipeline works in the following steps:
 Average waveforms:
 
 ![Synthetic data waveforms](images/waveforms-synthetic.png)
+
+## Week 2: Real epileptic patient data
+
+Here I tried mostly the same method.
+
+- Bandpass filter proved essential as there were very low and high noise frequencies present in the data.
+
+The method did not work good on the data. The data was detected as mostly just 1 cluster. The spike forms looked good though.
