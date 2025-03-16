@@ -32,27 +32,27 @@ The pipeline works in the following steps:
 
 ![Synthetic data](images/raw_data.png)
 
-After ICA:
+After ICA:  
 ![Synthetic data after ICA](images/after_ica.png)
 
-After sign-flipping with noise:
+After sign-flipping with noise:  
 ![Synthetic data after ICA with low frequency noise](images/low_freq_noise.png)
 
-Filtered data:
+Filtered data:  
 ![Synthetic data after ICA filtered](images/filtered.png)
 
-Detected peaks in two samples. The spikes in the upper sample were detected perfectly, while for the lower sample it was good enough:
+Detected peaks in two samples. The spikes in the upper sample were detected perfectly, while for the lower sample it was good enough:  
 ![detected heartbeat spikes for 2 samples](images/peaks_2_samples.png)
 
 Next, I checked the multiple heartbeats of each cluster to be validate my results:
 
-These hearts beat nice and regular. The are correctly labeled as healthy.
+These hearts beat nice and regular. The are correctly labeled as healthy.  
 ![Regular heartbeats](images/regular_beats.png)
 
-The samples of te second biggest cluster contain many irregular or skipped heartbeats, so I am right about those being sick.
+The samples of te second biggest cluster contain many irregular or skipped heartbeats, so I am right about those being sick.  
 ![Irregular heartbeats](images/irregular_beats.png)
 
-The heartbeats of the outliers look very bad.
+The heartbeats of the outliers look very bad.  
 ![Outlier heartbeats](images/outlier_beats.png)
 
 
@@ -72,8 +72,8 @@ Here I tried mostly the same method with some small changes.
 Clustering did not return confidend results. This may be due to the much lower sample size compared to the synthetic data.
 
 
-Spike detection worked okay for most samples, even if sometimes just barely, as some signals still contain a lot of noise or artifacts.
+Spike detection worked okay for most samples, even if sometimes just barely, as some signals still contain a lot of noise or artifacts.  
 ![Detected spikes in a real sample](images/spike_detection_real.png)
 
-Here, you can see the extracted heartbeats for 2 real samples.
+Here, you can see the extracted heartbeats for 2 real samples.  
 ![Detected heartbeat channels for 2 real samples](images/2_samples_real.png)
