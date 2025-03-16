@@ -1,4 +1,4 @@
-# unsupervised-methods
+# Unsupervised Methods
 
 This Github Repository contains my results in the course Unsupervised Methods WS24/25.
 

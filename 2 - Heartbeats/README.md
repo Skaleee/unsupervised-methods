@@ -57,7 +57,7 @@ The heartbeats of the outliers look very bad.
 
 
 
-## Week 2: Real epileptic patient data
+## Week 2: Pathology Detection
 
 Here I tried mostly the same method with some small changes.
 
