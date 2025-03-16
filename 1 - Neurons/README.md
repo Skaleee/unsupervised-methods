@@ -19,4 +19,6 @@ The pipeline works in the following steps:
 
 ![Synthetic data clusters](images/clusters-synthetic.png)
 
+Average waveforms:
+
 ![Synthetic data waveforms](images/waveforms-synthetic.png)
