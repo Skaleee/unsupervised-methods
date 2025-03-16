@@ -20,8 +20,7 @@ The pipeline works in the following steps:
 
 ![Synthetic data clusters](images/clusters-synthetic.png)
 
-Average waveforms:
-
+Average waveforms:  
 ![Synthetic data waveforms](images/waveforms-synthetic.png)
 
 ## Week 2: Real epileptic patient data
