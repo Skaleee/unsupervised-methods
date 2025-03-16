@@ -2,7 +2,7 @@
 ## Week 1: How to hear neurons talking?
 In this exercise we were given multiple datasets of EEG brain recordings (5 synthetic samples, 1 real sample). The goal was to detect and differentiate neuron spikes in each of the recordings.
 
-First step was to visit the data. The synthetic data contained an array that can be interpreted as the amplitudes of the wave recordings and ground truth spike data. The real data contained the same except for ground truth of course.
+First step was to visit the data. The synthetic data contained an array that can be interpreted as the amplitudes of the wave recordings and ground truth spike data. The real data contained the same except for ground truth of course. You could already visually see a lot of the spikes.
 
 The pipeline works in the following steps:
 - Bandpass filter to filter out noise so that only amplitudes that can be part of a spike remain.
