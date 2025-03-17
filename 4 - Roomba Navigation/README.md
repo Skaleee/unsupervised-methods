@@ -1,4 +1,4 @@
-# Exercise 3: Keeping It Clean
+# Exercise 4: Keeping It Clean
 ## Problem setting
 In this exercise the problem setting is, that we are working at a Roomba company and are tasked to create a system with which the Roomba can use Machine Learning to autonomously learn the layout of its environment and navigate through it.  
 To be more specific: We should find a method that extracts a good representation of the environment using some given data. If the Robot is turned on in any place in the room, then the Roomba should be able to identify where in the room it is (for example with x,y coordinates). We should also discuss, why our representation is useful.
