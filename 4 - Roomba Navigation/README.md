@@ -20,7 +20,7 @@ So the approach was now to extract those parameters. Futhermore, to acutally pre
 When we extract the 3 parameters from high dimensional images, it's kind of the same as when compressing the image to just those parameters. Because of this I chose to use an convolutional autoencoder to handle this task. After many tries of tuning the model architecture I settled for the encoder on 2 convolutional layers, followed by a dense layer, after which the output is compressed to a latent space. The decoder works mostly the same, just reversed.  
 At first I tried using a latent space with only 3 dimensions (x,y,rotation), but then I had concerns with the continuity of the parameter. As the rotation is periodical, the model may have problems with putting that into just one parameter. But for example a circle is nicely representable in 2 dimensions. So I later tried a latent space with 4 dimensions (x,y +2 for the rotation as a continuous space).
 
-Reconstructions:
+Reconstructions:  
 ![Reconstructions1](images/reconstruction1.png)  
 ![Reconstructions2](images/reconstruction2.png)  
 
